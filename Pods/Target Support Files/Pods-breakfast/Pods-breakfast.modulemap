@@ -1,0 +1,6 @@
+framework module Pods_breakfast {
+  umbrella header "Pods-breakfast-umbrella.h"
+
+  export *
+  module * { export * }
+}

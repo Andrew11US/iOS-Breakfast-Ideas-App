@@ -8,22 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		90431ED41E3A1EC800333BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431ED31E3A1EC800333BCA /* AppDelegate.swift */; };
-		90431ED61E3A1EC800333BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431ED51E3A1EC800333BCA /* ViewController.swift */; };
+		90431ED61E3A1EC800333BCA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431ED51E3A1EC800333BCA /* MainVC.swift */; };
 		90431ED91E3A1EC800333BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90431ED71E3A1EC800333BCA /* Main.storyboard */; };
 		90431EDC1E3A1EC800333BCA /* breakfast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90431EDA1E3A1EC800333BCA /* breakfast.xcdatamodeld */; };
 		90431EDE1E3A1EC800333BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90431EDD1E3A1EC800333BCA /* Assets.xcassets */; };
 		90431EE11E3A1EC800333BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90431EDF1E3A1EC800333BCA /* LaunchScreen.storyboard */; };
+		90431EED1E3A390D00333BCA /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EEC1E3A390D00333BCA /* RecipeVC.swift */; };
+		90431EEF1E3A395D00333BCA /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EEE1E3A395D00333BCA /* RecipeCell.swift */; };
+		90431EF11E3A46C800333BCA /* UIlabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EF01E3A46C800333BCA /* UIlabelExtension.swift */; };
+		90431EF31E3A7C2D00333BCA /* Material Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EF21E3A7C2D00333BCA /* Material Design.swift */; };
+		90431EF71E3A7D9E00333BCA /* RoundedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EF61E3A7D9E00333BCA /* RoundedImage.swift */; };
+		90431EF91E3A7E9E00333BCA /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EF81E3A7E9E00333BCA /* RoundedView.swift */; };
+		906A37AD1E60A39800FA0AB4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37AC1E60A39800FA0AB4 /* CustomButton.swift */; };
+		90F53D731E3F9CEE004C41A7 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F53D721E3F9CEE004C41A7 /* Recipe.swift */; };
+		90F53D751E3FE256004C41A7 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F53D741E3FE256004C41A7 /* MoreVC.swift */; };
+		AE8E62A8C415EE072E601433 /* Pods_breakfast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30AD381D8727FBCC231DD32C /* Pods-breakfast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakfast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakfast/Pods-breakfast.debug.xcconfig"; sourceTree = "<group>"; };
 		90431ED01E3A1EC800333BCA /* breakfast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakfast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90431ED31E3A1EC800333BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90431ED51E3A1EC800333BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90431ED51E3A1EC800333BCA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		90431ED81E3A1EC800333BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90431EDB1E3A1EC800333BCA /* breakfast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = breakfast.xcdatamodel; sourceTree = "<group>"; };
 		90431EDD1E3A1EC800333BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90431EE01E3A1EC800333BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90431EE21E3A1EC800333BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90431EEC1E3A390D00333BCA /* RecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeVC.swift; sourceTree = "<group>"; };
+		90431EEE1E3A395D00333BCA /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		90431EF01E3A46C800333BCA /* UIlabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIlabelExtension.swift; sourceTree = "<group>"; };
+		90431EF21E3A7C2D00333BCA /* Material Design.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Material Design.swift"; sourceTree = "<group>"; };
+		90431EF61E3A7D9E00333BCA /* RoundedImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImage.swift; sourceTree = "<group>"; };
+		90431EF81E3A7E9E00333BCA /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		906A37A81E60A33500FA0AB4 /* breakfast-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "breakfast-Bridging-Header.h"; sourceTree = "<group>"; };
+		906A37AC1E60A39800FA0AB4 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		90F53D721E3F9CEE004C41A7 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		90F53D741E3FE256004C41A7 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		9B1583107D5985524E00C5A6 /* Pods-breakfast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakfast.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakfast/Pods-breakfast.release.xcconfig"; sourceTree = "<group>"; };
+		CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakfast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE8E62A8C415EE072E601433 /* Pods_breakfast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FFDD738C052D209EFD8B859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65E48185EE38B06F79D7159C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30AD381D8727FBCC231DD32C /* Pods-breakfast.debug.xcconfig */,
+				9B1583107D5985524E00C5A6 /* Pods-breakfast.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90431EC71E3A1EC800333BCA = {
 			isa = PBXGroup;
 			children = (
 				90431ED21E3A1EC800333BCA /* breakfast */,
 				90431ED11E3A1EC800333BCA /* Products */,
+				65E48185EE38B06F79D7159C /* Pods */,
+				2FFDD738C052D209EFD8B859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,65 @@
 		90431ED21E3A1EC800333BCA /* breakfast */ = {
 			isa = PBXGroup;
 			children = (
-				90431ED31E3A1EC800333BCA /* AppDelegate.swift */,
-				90431ED51E3A1EC800333BCA /* ViewController.swift */,
-				90431ED71E3A1EC800333BCA /* Main.storyboard */,
+				90431EE91E3A387900333BCA /* UI */,
 				90431EDD1E3A1EC800333BCA /* Assets.xcassets */,
+				90431EEA1E3A388200333BCA /* Controllers */,
+				90431EE81E3A386300333BCA /* Model */,
+				90431EEB1E3A388A00333BCA /* Services */,
+				90F53D701E3F9933004C41A7 /* Support Files */,
+			);
+			path = breakfast;
+			sourceTree = "<group>";
+		};
+		90431EE81E3A386300333BCA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90F53D721E3F9CEE004C41A7 /* Recipe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		90431EE91E3A387900333BCA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				90431ED71E3A1EC800333BCA /* Main.storyboard */,
 				90431EDF1E3A1EC800333BCA /* LaunchScreen.storyboard */,
+				90431EEE1E3A395D00333BCA /* RecipeCell.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		90431EEA1E3A388200333BCA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90431ED51E3A1EC800333BCA /* MainVC.swift */,
+				90431EEC1E3A390D00333BCA /* RecipeVC.swift */,
+				90F53D741E3FE256004C41A7 /* MoreVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		90431EEB1E3A388A00333BCA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				90431EF21E3A7C2D00333BCA /* Material Design.swift */,
+				90431EF01E3A46C800333BCA /* UIlabelExtension.swift */,
+				90431EF61E3A7D9E00333BCA /* RoundedImage.swift */,
+				906A37AC1E60A39800FA0AB4 /* CustomButton.swift */,
+				90431EF81E3A7E9E00333BCA /* RoundedView.swift */,
+				906A37A81E60A33500FA0AB4 /* breakfast-Bridging-Header.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		90F53D701E3F9933004C41A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90431ED31E3A1EC800333BCA /* AppDelegate.swift */,
 				90431EE21E3A1EC800333BCA /* Info.plist */,
 				90431EDA1E3A1EC800333BCA /* breakfast.xcdatamodeld */,
 			);
-			path = breakfast;
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90431EE51E3A1EC800333BCA /* Build configuration list for PBXNativeTarget "breakfast" */;
 			buildPhases = (
+				B8DD76819CEE9BBA7A356EF3 /* [CP] Check Pods Manifest.lock */,
 				90431ECC1E3A1EC800333BCA /* Sources */,
 				90431ECD1E3A1EC800333BCA /* Frameworks */,
 				90431ECE1E3A1EC800333BCA /* Resources */,
+				D306B539452B0C5BCE756463 /* [CP] Embed Pods Frameworks */,
+				5EC63E6001F1DF78F520BA48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +196,7 @@
 					90431ECF1E3A1EC800333BCA = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,14 +232,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5EC63E6001F1DF78F520BA48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breakfast/Pods-breakfast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8DD76819CEE9BBA7A356EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D306B539452B0C5BCE756463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-breakfast/Pods-breakfast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90431ECC1E3A1EC800333BCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90431ED61E3A1EC800333BCA /* ViewController.swift in Sources */,
+				90431EF11E3A46C800333BCA /* UIlabelExtension.swift in Sources */,
+				90431EF71E3A7D9E00333BCA /* RoundedImage.swift in Sources */,
+				90431EF91E3A7E9E00333BCA /* RoundedView.swift in Sources */,
+				90431EEF1E3A395D00333BCA /* RecipeCell.swift in Sources */,
+				90431ED61E3A1EC800333BCA /* MainVC.swift in Sources */,
 				90431EDC1E3A1EC800333BCA /* breakfast.xcdatamodeld in Sources */,
+				90431EED1E3A390D00333BCA /* RecipeVC.swift in Sources */,
 				90431ED41E3A1EC800333BCA /* AppDelegate.swift in Sources */,
+				906A37AD1E60A39800FA0AB4 /* CustomButton.swift in Sources */,
+				90431EF31E3A7C2D00333BCA /* Material Design.swift in Sources */,
+				90F53D751E3FE256004C41A7 /* MoreVC.swift in Sources */,
+				90F53D731E3F9CEE004C41A7 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,26 +417,35 @@
 		};
 		90431EE61E3A1EC800333BCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AD381D8727FBCC231DD32C /* Pods-breakfast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = breakfast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.breakfast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "breakfast/breakfast-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		90431EE71E3A1EC800333BCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1583107D5985524E00C5A6 /* Pods-breakfast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = breakfast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.breakfast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "breakfast/breakfast-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -306,6 +469,7 @@
 				90431EE71E3A1EC800333BCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
