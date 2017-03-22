@@ -27,19 +27,18 @@ class RecipeVC: UIViewController {
         }
         
     }
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         titleLbl.text = recipe.recipeTitle
         recipeLbl.text = recipe.recipeDescription
-        
         viewHeightConstraint.constant = recipeLbl.requiredHeight()
         
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         viewHeightConstraint.constant = recipeLbl.requiredHeight()
         

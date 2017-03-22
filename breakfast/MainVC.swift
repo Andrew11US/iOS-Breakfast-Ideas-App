@@ -17,9 +17,7 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let r1 = Recipe(recipeTitle: "Berry Yogurt Smoothie", recipeDescription: "To make this smoothie simply add all of the ingredients to a blender and pulse for 30 seconds. Stir and pulse again for another 30 seconds until blended. Divide between two glasses and serve immediately. Garnish with blueberries and blackberries if desired.")
-        
-        recipes.append(r1)
+        loadRecipes()
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -70,6 +68,15 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
                 destination.recipe = recipe
             }
         }
+    }
+    
+    func loadRecipes() {
+        
+        recipes.append(r1)
+        recipes.append(r2)
+        recipes.append(r3)
+        recipes.append(r4)
+        recipes.append(r5)
     }
 
 }

@@ -8,11 +8,13 @@
 
 import UIKit
 
+@IBDesignable
 class RoundedImage: UIImageView {
-
-    override func awakeFromNib() {
-        
-        layer.cornerRadius = 10.0
+    
+    @IBInspectable var cornerRadius: CGFloat = 10.0 {
+        didSet {
+            self.layer.cornerRadius = cornerRadius
+        }
     }
 
 }

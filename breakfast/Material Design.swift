@@ -10,6 +10,7 @@ import UIKit
 
 private var materialKey = false
 
+@IBDesignable
 extension UIView {
     
     @IBInspectable var materialDesign: Bool {
