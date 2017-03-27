@@ -22,7 +22,6 @@
 		906A37AD1E60A39800FA0AB4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37AC1E60A39800FA0AB4 /* CustomButton.swift */; };
 		90CED3E91E82D48000570B81 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CED3E81E82D48000570B81 /* RecipeData.swift */; };
 		90F53D731E3F9CEE004C41A7 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F53D721E3F9CEE004C41A7 /* Recipe.swift */; };
-		90F53D751E3FE256004C41A7 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F53D741E3FE256004C41A7 /* MoreVC.swift */; };
 		AE8E62A8C415EE072E601433 /* Pods_breakfast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +45,6 @@
 		906A37AC1E60A39800FA0AB4 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		90CED3E81E82D48000570B81 /* RecipeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
 		90F53D721E3F9CEE004C41A7 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
-		90F53D741E3FE256004C41A7 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
 		9B1583107D5985524E00C5A6 /* Pods-breakfast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakfast.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakfast/Pods-breakfast.release.xcconfig"; sourceTree = "<group>"; };
 		CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakfast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -135,7 +133,6 @@
 			children = (
 				90431ED51E3A1EC800333BCA /* MainVC.swift */,
 				90431EEC1E3A390D00333BCA /* RecipeVC.swift */,
-				90F53D741E3FE256004C41A7 /* MoreVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -200,7 +197,7 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = PTRW36GG78;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -299,7 +296,6 @@
 				90431ED41E3A1EC800333BCA /* AppDelegate.swift in Sources */,
 				906A37AD1E60A39800FA0AB4 /* CustomButton.swift in Sources */,
 				90431EF31E3A7C2D00333BCA /* Material Design.swift in Sources */,
-				90F53D751E3FE256004C41A7 /* MoreVC.swift in Sources */,
 				90F53D731E3F9CEE004C41A7 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,15 +421,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = breakfast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.breakfast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "841c084d-988a-49b8-98b1-3fbd60c2ac83";
+				PROVISIONING_PROFILE_SPECIFIER = breakfastDevP;
 				SWIFT_OBJC_BRIDGING_HEADER = "breakfast/breakfast-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,14 +443,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = PTRW36GG78;
 				INFOPLIST_FILE = breakfast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.losAngelesBoy.breakfast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d56a0676-d367-4d67-9e79-1c6108b88fec";
+				PROVISIONING_PROFILE_SPECIFIER = breakfastDisP;
 				SWIFT_OBJC_BRIDGING_HEADER = "breakfast/breakfast-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

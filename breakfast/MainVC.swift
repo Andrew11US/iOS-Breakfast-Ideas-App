@@ -77,6 +77,11 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         recipes.append(r3)
         recipes.append(r4)
         recipes.append(r5)
+        recipes.append(r6)
+        recipes.append(r7)
+        recipes.append(r8)
+        recipes.append(r9)
+        recipes.append(r10)
     }
 
 }
