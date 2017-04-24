@@ -21,6 +21,9 @@
 		90431EF91E3A7E9E00333BCA /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90431EF81E3A7E9E00333BCA /* RoundedView.swift */; };
 		906A37AD1E60A39800FA0AB4 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A37AC1E60A39800FA0AB4 /* CustomButton.swift */; };
 		90CED3E91E82D48000570B81 /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CED3E81E82D48000570B81 /* RecipeData.swift */; };
+		90D0CBA91EAE2ABD00499312 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D0CBA61EAE2ABD00499312 /* Lato-Bold.ttf */; };
+		90D0CBAA1EAE2ABD00499312 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D0CBA71EAE2ABD00499312 /* Lato-Light.ttf */; };
+		90D0CBAB1EAE2ABD00499312 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90D0CBA81EAE2ABD00499312 /* Lato-Regular.ttf */; };
 		90F53D731E3F9CEE004C41A7 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F53D721E3F9CEE004C41A7 /* Recipe.swift */; };
 		AE8E62A8C415EE072E601433 /* Pods_breakfast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */; };
 /* End PBXBuildFile section */
@@ -44,6 +47,9 @@
 		906A37A81E60A33500FA0AB4 /* breakfast-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "breakfast-Bridging-Header.h"; sourceTree = "<group>"; };
 		906A37AC1E60A39800FA0AB4 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		90CED3E81E82D48000570B81 /* RecipeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		90D0CBA61EAE2ABD00499312 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		90D0CBA71EAE2ABD00499312 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		90D0CBA81EAE2ABD00499312 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		90F53D721E3F9CEE004C41A7 /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		9B1583107D5985524E00C5A6 /* Pods-breakfast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakfast.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakfast/Pods-breakfast.release.xcconfig"; sourceTree = "<group>"; };
 		CBA32FB18EA39753C2E0507A /* Pods_breakfast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakfast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -153,6 +159,9 @@
 		90F53D701E3F9933004C41A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				90D0CBA61EAE2ABD00499312 /* Lato-Bold.ttf */,
+				90D0CBA71EAE2ABD00499312 /* Lato-Light.ttf */,
+				90D0CBA81EAE2ABD00499312 /* Lato-Regular.ttf */,
 				90431ED31E3A1EC800333BCA /* AppDelegate.swift */,
 				90431EE21E3A1EC800333BCA /* Info.plist */,
 				90431EDA1E3A1EC800333BCA /* breakfast.xcdatamodeld */,
@@ -224,9 +233,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90D0CBAA1EAE2ABD00499312 /* Lato-Light.ttf in Resources */,
+				90D0CBAB1EAE2ABD00499312 /* Lato-Regular.ttf in Resources */,
 				90431EE11E3A1EC800333BCA /* LaunchScreen.storyboard in Resources */,
 				90431EDE1E3A1EC800333BCA /* Assets.xcassets in Resources */,
 				90431ED91E3A1EC800333BCA /* Main.storyboard in Resources */,
+				90D0CBA91EAE2ABD00499312 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
