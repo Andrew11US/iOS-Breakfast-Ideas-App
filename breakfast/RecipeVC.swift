@@ -31,9 +31,14 @@ class RecipeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        titleLbl.text = recipe.recipeTitle
-        recipeLbl.text = recipe.recipeDescription
-        viewHeightConstraint.constant = recipeLbl.requiredHeight()
+        DispatchQueue.main.async {
+            self.titleLbl.text = self.recipe.recipeTitle
+            self.recipeLbl.text = self.recipe.recipeDescription
+            self.viewHeightConstraint.constant = self.recipeLbl.requiredHeight()
+        }
+//        titleLbl.text = recipe.recipeTitle
+//        recipeLbl.text = recipe.recipeDescription
+//        viewHeightConstraint.constant = recipeLbl.requiredHeight()
         
     }
     

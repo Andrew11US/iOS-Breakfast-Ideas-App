@@ -56,7 +56,11 @@ class MainVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let recipe = recipes[indexPath.row]
-        performSegue(withIdentifier: "RecipeVC", sender: recipe)
+        
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier: "RecipeVC", sender: recipe)
+        }
+        
         
     }
     
